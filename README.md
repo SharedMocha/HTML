@@ -1,5 +1,55 @@
 # READ RAW--NOT THIS
 
+#  read these first before going to #html-
+
+Things not to forget-
+1.)
+If you need something to be clickable-then wrap it inside a tag like below
+<a href=""><p></p></a> --Same with image
+**Remember that this can be the same for <LI>-However, this would be invalid syntax and should be avoided. As specified in mozilla docs, <li> elements should always be direct children of either <ol>, <ul> or the experimental <menu> tags.
+
+2.) IMG  and BR is a self closing tag  - <img src="" />
+The important distinction between self-closing tags and all other tags is that self-closing tags represent void elements. 
+Void elements like img and br cannot contain any content. All other tags may (but are not required to) contain content.
+** Also input in form  -this doesnt even />--it simply closes like below-
+				<input type="text" name="id">, <input type="text" name="id" placeholder="start">
+<input type="text" name="username" value="Davie" placeholder="start">
+
+
+
+3.)HTML doc type- why ?
+Even though the HTML5 doctype declaration is dramatically simplified, 
+it is still required so that the browser knows which version of HTML is being used. Once it knows, then it is able to render the document in “strict mode.” If no doctype is declared, then it can still tell that the document is HTML based on the file extension and <html></html> tag pair, but since it does not know which version of HTML is being used, it renders the document in “quirks mode.”
+
+4.) “separation of concerns
+Within software engineering, there is a design principle known as “separation of concerns” which aims to create scalable, more easily maintainable coding architectures. For web developers, this principle guides us to keep our structure (HTML) separate from our presentation (CSS).
+
+
+5.)Tables- add row and column span to td-- not to tr
+Ex-   <td colspan="2">Out of Town</td>
+
+
+6.) In form all  elmets go inside form with tag like below-
+<input type="number|checkbox|radio|select|range|text|submit|password|datalist" value="" id="" name=""> 
+only thing to note is for text are it is diffent --as it will need  a closing tag
+
+<form>
+  <label for="blog">New Blog Post: </label>
+  <br>
+  <textarea id="blog" name="blog" rows="5" cols="30">
+  </textarea>
+</form>
+
+
+7.) We can say html now has css and js added--example
+h1,h2---styling is via default css
+form validaitons like required,minlength for text field,min and max for number range -- are all js validations.
+you can also add regex as needed- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+
+
+8.) wHEN TO use div and section-
+DIv is master - now lets say we shoudl shown drop-own options or radio then wrap then around seciton
+----------------------------------------------------------------------------------------------------------------------------------------------
 # HTML
 HTML FILE 1-->
 Let’s review what you’ve learned so far:
