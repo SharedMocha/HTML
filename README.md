@@ -10,7 +10,7 @@ HTML elements can be nested inside other elements. The enclosed element is the c
 
 Any visible content should be placed within the opening and closing <body> tags .
   
-Headings and sub-headings, <h1> to <h6> tags, are used to enlarge text.
+Headings and sub-headings,<h1> to <h6> tags, are used to enlarge text.
   
 <p>, <span> and <div> tags specify text or blocks.
   
