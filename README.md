@@ -8,7 +8,7 @@ If you need something to be clickable-then wrap it inside a tag like below
 <a href=""><p></p></a> --Same with image
 **Remember that this can be the same for <LI>-However, this would be invalid syntax and should be avoided. As specified in mozilla docs, <li> elements should always be direct children of either <ol>, <ul> or the experimental <menu> tags.
 
-2.) IMG  and BR is a self closing tag  - <img src="" />
+2.) IMG  and BR is a self closing tag  along with link for css n js - <img src="" />
 The important distinction between self-closing tags and all other tags is that self-closing tags represent void elements. 
 Void elements like img and br cannot contain any content. All other tags may (but are not required to) contain content.
 ** Also input in form  -this doesnt even />--it simply closes like below-
